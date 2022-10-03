@@ -1,13 +1,10 @@
 import { View, Text } from "react-native";
+import * as S from "./styles";
 
 export function Groups() {
   return (
-    <View style={{
-      flex: 1,
-      alignItems: 'center',
-      justifyContent: 'center',
-    }} >
-      <Text>Groups</Text>
-    </View>
+    <S.Container >
+      <S.Title style={{ color: 'white' }} >Groups</S.Title>
+    </S.Container>
   )
 }
